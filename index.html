@@ -347,10 +347,18 @@ name="pyt11__button" id="pyt11__button">▶</span><div style="display:inline;" c
 11. Jak zmienić komentarz do dodany do ostatniego zatwierdzenia?
 
 </div>
-<div class="stylepoint_body" name="pyt11__body" id="pyt11__body" style="display: inline; "><fieldset class="answer">
+<div class="stylepoint_body" name="pyt11__body" id="pyt11__body" style="display: none; "><fieldset class="answer">
 
 <p>
-<pre>???</pre>
+Jeśli nastąpiła pomyłka w wykonaniu rewizji - pominięcie pliku lub błąd w komentarzu - wystarczy uruchomić polecenie <code>git commit</code> z opcją <code>--amend</code>.
+<pre>
+<b>Przykład:</b>
+<code>
+git commit –m ‘Inicjalizacja pliku 1’
+git add zapomnianyPlik
+git commit --amend
+</code>
+</pre>
 </p>
 
 </fieldset></div></p>
